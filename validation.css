@@ -1,0 +1,56 @@
+ body {
+        font-family: 'Lato', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul h2 {
+  text-align: left;
+}
+
+#applicantandemployercontainer {
+  margin: auto 0;
+}
+
+.applicantpersonalcontainer,
+.applicantemployercontainter {
+  width: 40%;
+  padding: 0;
+  margin: 0;
+  border: 3px solid lightblue;
+}
+
+.applicantpersonalcontainer {
+  float: left;
+  display: inline-block;
+}
+
+.applicantemployercontainter {
+  float: right;
+  display: inline-block;
+}
+
+.additionalloaninfo {
+  clear: both;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100px;
+}
+
+.valid:required:invalid {
+  border-color: red;
+}
+
+
+.valid:required:valid {
+  border-color: green;
+}
+
+
+ul {
+  list-style-type: none;
+}
