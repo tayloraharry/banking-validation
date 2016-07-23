@@ -25,6 +25,7 @@ ul h2 {
 .applicantpersonalcontainer {
   float: left;
   display: inline-block;
+  margin-right: -15px;
 }
 
 .applicantemployercontainter {
@@ -42,12 +43,14 @@ input[type="text"] {
 }
 
 .valid:required:invalid {
-  border-color: red;
+  background-color: #ff4d4d;
+  color:black;
 }
 
 
 .valid:required:valid {
-  border-color: green;
+  background-color: #ccffcc;
+  color:black;
 }
 
 
